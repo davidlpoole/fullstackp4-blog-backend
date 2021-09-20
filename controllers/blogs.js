@@ -9,6 +9,14 @@ blogsRouter.get('/', (request, response) => {
     })
 })
 
+blogsRouter.get('/:id', (request, response) => {
+  Blog
+    .findById(request.params.id)
+    .then(blogs => {
+      response.json(blogs)
+    })
+})
+
 blogsRouter.post('/', (request, response) => {
   const blog = new Blog(request.body)
 
