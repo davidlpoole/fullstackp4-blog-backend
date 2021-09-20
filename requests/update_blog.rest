@@ -1,0 +1,16 @@
+# const blogSchema = new mongoose.Schema({
+#   title: String,
+#   author: String,
+#   url: String,
+#   likes: Number
+# })
+
+PUT http://localhost:3001/api/blogs/6145be9046dade5ca0ef0d9d
+Content-Type: application/json
+
+{
+    "title": "From vs code rest client",
+    "author": "david",
+    "url": "url",
+    "likes": 8
+}
