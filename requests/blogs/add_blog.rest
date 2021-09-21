@@ -17,10 +17,9 @@
 
 POST http://localhost:3001/api/blogs/
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFiYyIsImlkIjoiNjE0YTU3NDU1ZmM2OTVhYTVhNmRlMjkyIiwiaWF0IjoxNjMyMjY1MzI0LCJleHAiOjE2MzIyOTQxMjR9.8EVigoe2diJreUG5NZZ96cLSt3tfhQpa1pqAumXx_sI
 
 {
-    "title": "Second post",
-    "author": "sarah",
-    "url": "url2",
-    "likes": "2"
+    "title": "onemore form abc with new code",
+    "url": "url2"
 }

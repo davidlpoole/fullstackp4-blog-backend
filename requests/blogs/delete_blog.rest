@@ -1,0 +1,9 @@
+# const blogSchema = new mongoose.Schema({
+#   title: String,
+#   author: String,
+#   url: String,
+#   likes: Number
+# })
+
+DELETE http://localhost:3001/api/blogs/614a648604ebc1b130c1c84c
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRwb29sZSIsImlkIjoiNjE0YTU0ZTk4Yjc5NDNhOTI4OTRlMjU5IiwiaWF0IjoxNjMyMjY1MjQ0LCJleHAiOjE2MzIyOTQwNDR9.lpqXmqAThsV1rHfNU_l9GF6oZZ0f7VLQTxWAc75772Y

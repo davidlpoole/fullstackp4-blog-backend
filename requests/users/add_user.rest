@@ -1,0 +1,24 @@
+# const userSchema = new mongoose.Schema({
+#   username: {
+#     type: String,
+#     unique: true
+#   },
+#   name: String,
+#   passwordHash: String,
+#   notes: [
+#     {
+#       type: mongoose.Schema.Types.ObjectId,
+#       ref: 'Blog'
+#     }
+#   ],
+# })
+
+
+POST http://localhost:3001/api/users/
+Content-Type: application/json
+
+{
+    "username": "abc",
+    "name": "david poole",
+    "password": "test"
+}
