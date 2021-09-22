@@ -2,6 +2,50 @@ POST http://localhost:3001/api/login
 Content-Type: application/json
 
 {
-  "username": "abc",
+  "username": "david",
+  "password": "david"
+}
+
+# HTTP/1.1 200 OK
+# X-Powered-By: Express
+# Access-Control-Allow-Origin: *
+# Content-Type: application/json; charset=utf-8
+# Content-Length: 248
+# ETag: W/"f8-dtMFsjWyUuUiD3FYoS98XPc/9N0"
+# Date: Wed, 22 Sep 2021 06:45:21 GMT
+# Connection: close
+
+# {
+#   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRhdmlkIiwiaWQiOiI2MTRhZDBjODljOTczNjBhNTc0MmI1YTIiLCJpYXQiOjE2MzIyOTMxMjEsImV4cCI6MTYzMjMyMTkyMX0.-Zj4BWslFQipEvRlLMUpVZ50NEmWQ8HC4FaUH0Yr_WE",
+#   "username": "david",
+#   "name": "David Poole"
+# }
+
+
+
+
+
+
+
+POST http://localhost:3001/api/login
+Content-Type: application/json
+
+{
+  "username": "james",
   "password": "test"
 }
+
+# HTTP/1.1 200 OK
+# X-Powered-By: Express
+# Access-Control-Allow-Origin: *
+# Content-Type: application/json; charset=utf-8
+# Content-Length: 244
+# ETag: W/"f4-oYIRiw4DKbhPObFhFxdOsDDMvxk"
+# Date: Wed, 22 Sep 2021 06:47:18 GMT
+# Connection: close
+
+# {
+#   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImphbWVzIiwiaWQiOiI2MTRhZDBkZjljOTczNjBhNTc0MmI1YTYiLCJpYXQiOjE2MzIyOTMyMzgsImV4cCI6MTYzMjMyMjAzOH0.jAV0s1mk-CNdBjxriL_aIY3OFlHxsz_SdfudtB5LxKY",
+#   "username": "james",
+#   "name": "Jim Bob"
+# }

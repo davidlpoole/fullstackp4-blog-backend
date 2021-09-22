@@ -1,7 +1,6 @@
 const blogsRouter = require('express').Router()
 const Blog = require('../models/blog')
 const User = require('../models/user')
-const jwt = require('jsonwebtoken')
 
 blogsRouter.get('/', async (request, response) => {
   const blogs = await Blog
@@ -29,6 +28,7 @@ blogsRouter.post('/', async (request, response) => {
   const blog = new Blog({
     title: body.title,
     user: user._id,
+    author: body.author,
     url: body.url,
     likes: body.likes || 0,
   })
